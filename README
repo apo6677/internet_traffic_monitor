@@ -1,0 +1,10 @@
+The tool was implemented following the given specifications.
+
+In order to filter traffic you have to press -f just like the specifications
+although the port from traffic will be monitored is specified with a user's scanf from terminal. 
+Note that if the number you input does not correspond with an actual port the program won't work. 
+Moreover the user has to input the number of packets that are going to be
+"sniffed" whether it is live capture or offline capture from a pcap file. This happens with the use of a scanf again.
+Live captures are going to be stored in a file named log. Finaly on live capture the user has to input the correct name of the device hw wants "sniffed".
+
+Retranssmisions indicator does not seem to work.
